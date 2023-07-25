@@ -49,14 +49,21 @@
     <header>
       <div class="hero min-h-screen bg-base-200">
         <div class="hero-content flex-col lg:flex-row-reverse">
-          <img src="images/banner.png" class="max-w-sm rounded-lg shadow-2xl" />
-          <div class="flex">
+          <img
+            src="images/banner.png"
+            class="lg:max-w-sm rounded-lg shadow-2xl"
+          />
+
+          <!-- <div class="flex">
             <i class="fa-solid fa-star"></i>
-            <h3 class="text-3xl">5.00</h3>
-            <p class="text-sm">Trust Pilot Ratings</p>
-          </div>
+            <div class="flex items-center">
+              <h3 class="text-3xl">5.00</h3>
+              <p class="text-sm">Trust Pilot Ratings</p>
+            </div>
+          </div> -->
+
           <div>
-            <h1 class="text-7xl font-bold">
+            <h1 class="text-3xl lg:text-7xl font-bold">
               It's good <br />
               tea time at The <br />Tea House
             </h1>
@@ -72,7 +79,116 @@
     <!-- header section end -->
 
     <!-- main section start  -->
-    <main></main>
+    <main class="container mx-auto">
+      <!-- featured section -->
+      <section class="text-center px-4 lg:text-center my-24">
+        <h1 class="text-5xl font-extrabold mb-20">Our Featured Products</h1>
+        <p class="lg:max-w-3xl mx-auto">
+          There are many variations of passages of Lorem Ipsum available, but
+          the majority have suffered alteration in some form, by injected
+          humour, or randomised words which don't look even slightly believable.
+        </p>
+        <!-- featured tea card container -->
+        <div class="mt-7 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4">
+          <!-- first card -->
+          <div
+            class="card p-8 bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] shadow-xl py-10"
+          >
+            <figure class="px-10">
+              <img src="images/tea-1.png" alt="" />
+            </figure>
+            <div class="card-body">
+              <h2 class="text-3xl font-bold">Milk Tea</h2>
+              <p class="text-zinc-500">
+                Creamer could be replaced by fresh milk
+              </p>
+            </div>
+          </div>
+          <!-- first card -->
+          <div
+            class="card p-8 bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] shadow-xl py-10"
+          >
+            <figure class="px-10">
+              <img src="images/tea-2.png" alt="" />
+            </figure>
+            <div class="card-body">
+              <h2 class="text-3xl font-bold">Black Tea</h2>
+              <p class="text-zinc-500">
+                Creamer could be replaced by fresh milk
+              </p>
+            </div>
+          </div>
+          <!-- first card -->
+          <div
+            class="card p-8 bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] shadow-xl py-10"
+          >
+            <figure class="px-10">
+              <img src="images/tea-3.png" alt="" />
+            </figure>
+            <div class="card-body">
+              <h2 class="text-3xl font-bold">Lemon Tea</h2>
+              <p class="text-zinc-500">
+                Creamer could be replaced by fresh milk
+              </p>
+            </div>
+          </div>
+          <!-- first card -->
+          <div
+            class="card p-8 bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] shadow-xl py-10"
+          >
+            <figure class="px-10">
+              <img src="images/tea-4.png" alt="" />
+            </figure>
+            <div class="card-body">
+              <h2 class="text-3xl font-bold">Green Tea</h2>
+              <p class="text-zinc-500">
+                Creamer could be replaced by fresh milk
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- great tea fresh tea section -->
+      <section class="my-24 flex flex-col lg:flex-row">
+        <!-- grid part -->
+
+        <div class="grid gap-2 grid-cols-1 md:grid-cols-2 flex-1">
+          <div
+            class="rounded-xl w-72 h-40 bg-gradient-to-r from-amber-50 to-amber-200"
+          ></div>
+          <div class="row-span-2 bg-[#5776391A]">
+            <img src="images/fresh-1.png" alt="" />
+          </div>
+          <div class="row-span-2">
+            <img src="images/fresh-2.png" alt="" />
+          </div>
+          <div
+            class="rounded-xl w-52 h-40 bg-gradient-to-r from-amber-50 to-amber-200"
+          ></div>
+        </div>
+
+        <!-- text part -->
+        <div class="space-y-5 flex-1">
+          <h3 class="text-5xl font-extrabold">Great Tea, Freshly Presented</h3>
+          <p>
+            The meaning of gong cha is chanese is to provide the best tea to
+            emperor from all possessions . It represents the highest quality and
+            self expectation. Establishing in 2006, Gong cha had been deeply
+            appreciated by its custoers because of good words of mouth and
+            unique customized service orginated from Taiwan.
+          </p>
+          <h3 class="text-2xl font-bold">Unique Taste</h3>
+          <p>
+            A Unique and different style from other teapots gives a luxurious
+            and minimalist impression
+          </p>
+          <h3 class="text-2xl font-bold">Premium Quality</h3>
+          Premium Quality that makes tea more elegant and more durable when you
+          use it.
+        </div>
+      </section>
+    </main>
     <!-- main section end -->
 
     <!-- footer section start -->
